@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain import OpenAI
+from langchain_openai import OpenAI
 from langchain.docstore.document import Document
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
